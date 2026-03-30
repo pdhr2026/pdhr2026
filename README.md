@@ -75,7 +75,7 @@
 | $c\_{\text{v}}$ | -0.750 (35) | -0.813 (21) | -0.820 (43) | -0.822 (2) | -0.652 (55) | **-0.841 (26)** |
 
 
-**Table 7: UMA Hold-out data larning curve - NLL ↓**
+**Table 6: UMA Hold-out data larning curve - NLL ↓**
 
 | No. Hold-out Data | 100 | 200 | 400 | 800 | 1600 | 3200 | 6400 | 10000 |
 |---|---|---|---|---|---|---|---|---|
@@ -83,7 +83,7 @@
 | Post-hoc Ensemble | **-0.951 (930)** | **-1.08 (57)** | **-1.32 (29)** | **-1.21 (31)** | **-1.06 (24)** | **-1.36 (9)** | **-1.28 (4)** | **-1.31 (14)** |
 
 
-**Table 8: Variance head versus weight decay - NLL ↓**
+**Table 7: Variance head versus weight decay - NLL ↓**
 
 | Target | Feature | $\lambda = 10^{-4}$ | $\lambda = 10^{-3}$ | $\lambda = 10^{-2}$ | $\lambda = 10^{-1}$ | $\lambda = 1$ | $\lambda = 10^{1}$ |
 |---|---|---|---|---|---|---|---|
@@ -95,7 +95,7 @@
 | $U$ | All (MLP) | 4.49 (216) | 4.40 (226) | 4.24 (238) | 3.08 (140) | **-2.89 (5)** | -2.15 (221) |
 
 
-**Table 9: Random Fourier features (QM9, $U\_0$) - NLL ↓**
+**Table 8: Random Fourier features (QM9, $U\_0$) - NLL ↓**
 
 | $\sigma$ | $10^{-2}$ | $10^{-1}$ | $1$ | $10^{1}$ | $10^{2}$ | No RFF |
 |---|---|---|---|---|---|---|
@@ -108,7 +108,7 @@
 | All | -2.85 (10) | -2.86 (5) | **-3.07 (27)** | -2.98 (9) | -2.90 (8) | -2.87 (33) |
 
 
-**Table 12: QM9 OOD averages**
+**Table 9: QM9 OOD averages**
 
 | Method | FPR95 ↓ | AUROC ↑ |
 |---|---|---|
