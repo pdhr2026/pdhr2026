@@ -118,3 +118,10 @@
 | $\beta$-NLL | **0.606 (70)** | **0.819 (41)** |
 | Faithful | 0.802 (46) | 0.671 (52) |
 | Post hoc (ours) | 0.666 (70) | 0.786 (33) |
+
+**Table 10: Additional baselines for UMA and AllScAIP - BLR and LLLA**
+
+| | MAE ↓ (BLR) | MAE ↓ (LLLA) | NLL ↓ (BLR) | NLL ↓ (LLLA) |
+|---|---|---|---|---|
+| UMA | 87.6 (103) | 61.3 (17) | 0.261 (36) | 0.265 (18) |
+| AllScAIP | 137 (58) | 42.8 (1) | 0.138 (44) | -0.403 (171) |
